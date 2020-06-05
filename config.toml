@@ -1,2 +1,11 @@
-languageCode = "en-us"
+languageCode = "en"
 title = "My New Netlify Victor Hugo Site"
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "My blog"
+    weight = 1
+  [languages.fr]
+    title = "Mon blog"
+    weight = 2    
